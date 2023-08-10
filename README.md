@@ -19,3 +19,7 @@ to translate a file write:
 ```
 ./assembler some_file.as
 ```
+Afterward, you'll find the assembled file named some_file.ob,
+along with separate .ext and .ent files for external and entry labels, respectively.
+If any errors occur during any of the stages, apropriate messages will be displayed in the console,
+and no output files will be generated.
